@@ -15,3 +15,8 @@ def smooth_image(a, sigma=1):
 
 def my_mat_solve(A, b):
     return A.inv()*b
+
+import pandas as pd
+
+def ser():
+    return pd.Series([1, 3, 5, np.nan, 6, 8])
